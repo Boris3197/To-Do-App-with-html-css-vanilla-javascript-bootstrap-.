@@ -1,0 +1,65 @@
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.button-group {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+
+#done:active {
+    background: rgb(60, 255, 7);
+}
+
+#all:active {
+    background: rgb(15, 63, 255);
+}
+
+#progress:active {
+    background: rgb(255, 234, 0);
+}
+
+.container2 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.input {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+
+.container3 {
+    background-color: rgb(242, 242, 242);
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .container-fluid {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #todo {
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+    }
+}
